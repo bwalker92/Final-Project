@@ -11,12 +11,14 @@ import android.view.View.OnClickListener;
 public class AppActivity extends Activity {
 
 	Button button;
+	Button button1;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		addListenerOnButton();
+		addListenerOnButton1();
 	}
 
 	public void addListenerOnButton() {
@@ -36,7 +38,27 @@ public class AppActivity extends Activity {
 			}
 
 		});
-
 	}
+		
+		public void addListenerOnButton1() {
+
+			final Context context = this;
+
+			button1 = (Button) findViewById(R.id.button2);
+
+			button1.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View arg0) {
+
+					Intent intent = new Intent(context, App3Activity.class);
+	                startActivity(intent);   
+
+				}
+
+			});
+			
+			
+		}
 
 }

@@ -13,8 +13,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="139dp"
+        android:layout_width="136dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Notes" />
 
 </LinearLayout>
