@@ -12,7 +12,7 @@
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
-            android:name=".AppActivity" >
+            android:name="com.example.omorganizer.AppActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,11 +21,11 @@
         </activity>
         <activity
             android:label="@string/app_name"
-            android:name=".App3Activity" >
+            android:name="com.mkyong.android.App3Activity" >
         </activity>
         <activity
             android:label="@string/app_name"
-            android:name=".App2Activity" >
+            android:name="com.example.omorganizer.App2Activity" >
         </activity>
         
         
